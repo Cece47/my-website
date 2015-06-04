@@ -1,0 +1,50 @@
+body {
+  overflow:hidden;
+}
+.main-image {
+  width:75%;
+  height:45em;
+  margin-left: 8em;
+  margin-right:8em;
+  margin-top:-2em;
+  z-index:-1;
+  position:absolute;
+}
+.menu {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:1.6em;
+  line-height:1.4em;
+  text-align:center;
+  z-index:100;
+  list-style-type:none;
+  padding-top:5.3em;
+  padding-left:7.5em;
+  position:absolute;
+}
+.portfolio, .blog, .me, .contact {
+  background:#9795a2;
+  margin-bottom:0.3em;
+  padding:0.6em;
+  padding-right:1em;
+  padding-left:1em;
+  color:white;
+  border-radius:10px;
+}
+.portfolio:hover, .blog:hover, .me:hover, .contact:hover {
+  background:white;
+  color:#9795a2;
+}
+.icons {
+  z-index:100;
+  padding-top:1.5em;
+  position:absolute;
+  font-size:2em;
+  padding-left:13.5em;
+}
+.fa-github, .fa-linkedin-square, .fa-twitter-square, .fa-instagram {
+  margin-right:0.5em;
+  color:#f05f86;
+}
+.fa-github:hover, .fa-linkedin-square:hover, .fa-twitter-square:hover, .fa-instagram:hover {
+  color:#9795a2;
+}
